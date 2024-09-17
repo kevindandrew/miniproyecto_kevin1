@@ -1,0 +1,134 @@
+body {
+    background-color: hsl(235, 18%, 26%);
+    color: hsl(235, 18%, 26%);
+}
+
+
+.card-container {
+    max-width: 400px; 
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); 
+    background-color:white;
+    color: hsl(235, 18%, 26%);
+
+}
+.cont-img{
+    padding: 0;
+}
+.cont-img .img-fluid {
+    width: 100%;  
+    height: auto; 
+    object-fit: cover; 
+}
+.icon-size {
+    width: 24px; 
+    height: 24px;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: hsl(234, 29%, 20%);
+    border: none;
+    color: white;
+}
+
+.btn:hover {
+    background-color: hsl(234, 29%, 25%);
+    color: white;
+}
+.abajo-izquierda{
+    padding-right: 20px;
+}
+h1{
+    font-weight: 700;
+    margin-left: 20px;
+}
+p{
+    font-weight: 600;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+ul{
+    font-weight: 600;
+    margin-left: 20px;
+}
+li{
+    font-weight: 600;
+    margin-right: 20px;
+}
+label{
+    font-weight: bold;
+}
+input{
+    height: 45px;
+}
+.btn{
+    height: 45px;
+    margin-bottom: 20px;
+}
+
+
+@media (min-width: 768px) {
+
+.card-container{
+    max-width: 900px;
+}
+.cont-img{
+    padding: 20px;
+}
+.abajo-izquierda{
+    margin-top: 60px;
+}
+h1{
+    font-size: 50px;
+    
+}
+p{
+    padding-top: 20px;
+}
+ul{
+    padding-top: 15px;
+}
+label{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+input{
+    margin-left: 15px;
+}
+button{
+    margin-left: 15px;
+}
+.error_message{
+    margin-left: 10px;
+}
+}
+.apartito {
+    display: none !important; 
+}
+.error_message{
+    color: red;
+    font-size: 12px;
+    font-weight: 700; 
+    padding-left: 140px;
+}
+.input-invalid {
+    border: 2px solid rgba(236, 153, 153, 0.808);
+    background-color: #fdd;
+}
+.modal-dialog{
+    max-width: 400px;
+
+}
+.modal-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 50px;
+}
+.modal-icon{
+    margin-right: 300px;
+}
